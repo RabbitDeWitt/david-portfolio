@@ -1,7 +1,9 @@
+import { Hero } from "@/components";
+
 export default function Home() {
   return (
-    <main>
-      Oi
+    <main className="h-[2000px]">
+      <Hero />
     </main>
   );
 }
