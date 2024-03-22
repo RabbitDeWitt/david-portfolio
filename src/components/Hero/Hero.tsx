@@ -17,7 +17,7 @@ const Hero = () => {
             </h1>
 
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
-              Sou apaixonado em ouvir música, tocar guitarra, assistir filmes, jogar video-game e é claro programar.
+              Sou apaixonado em ouvir música, tocar guitarra, assistir filmes e séries, jogar video-game e é claro programar.
             </p>
 
             <Button>

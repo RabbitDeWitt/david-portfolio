@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      content: {
+        sobre: 'url("/sobre.svg")',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -15,6 +18,7 @@ const config: Config = {
       },
       colors: {
         primary: '#050402',
+        secondary: '#1C1D24',
         tertiary: '#131419',
       }
     },
