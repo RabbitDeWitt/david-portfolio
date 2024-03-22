@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import Navbar from "../Navbar/Navbar"
 import Social from "../Social/Social"
+import NavMobile from "../NavMobile/NavMobile"
 
 const Header = () => {
   const [bg, setBg] = useState<boolean>(false)
@@ -28,7 +29,7 @@ const Header = () => {
         </div>
 
         <div className="lg:hidden">
-          Mobile
+          <NavMobile />
         </div>
       </div>
     </header>

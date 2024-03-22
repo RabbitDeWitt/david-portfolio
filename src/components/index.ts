@@ -6,6 +6,7 @@ import Footer from "./Footer/Footer";
 import ProjectCard from "./ProjectCard/ProjectCard";
 import Button from "./Button/Button";
 import Social from "./Social/Social";
+import NavMobile from "./NavMobile/NavMobile";
 
 export {
   Header,
@@ -14,5 +15,6 @@ export {
   Footer,
   ProjectCard,
   Button,
-  Social
+  Social,
+  NavMobile
 }
