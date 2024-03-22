@@ -20,8 +20,8 @@ const Navbar = () => {
               duration={500}
               offset={-70}
             >
+              {name}
             </Link>
-            {name}
           </li>
         ))}
       </ul>
