@@ -1,6 +1,7 @@
 import Hero from "./Hero/Hero";
 import About from "./About/About";
 import Skills from "./Skills/Skills";
+import Portfolio from "./Portfolio/Portfolio";
 
 import Header from "./Header/Header";
 import Navbar from "./Navbar/Navbar";
@@ -9,6 +10,7 @@ import ProjectCard from "./ProjectCard/ProjectCard";
 import Button from "./Button/Button";
 import Social from "./Social/Social";
 import NavMobile from "./NavMobile/NavMobile";
+
 
 
 export {
@@ -21,5 +23,6 @@ export {
   Social,
   NavMobile,
   About,
-  Skills
+  Skills,
+  Portfolio
 }

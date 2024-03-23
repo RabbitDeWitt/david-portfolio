@@ -3,7 +3,7 @@ import Button from "../Button/Button"
 
 const About = () => {
   return (
-    <section className="py-12 lg:pt-28 bg-secondary">
+    <section className="py-12 lg:pt-20 bg-secondary">
       <div className="container mx-auto">
         <div className="flex flex-col gap-24">
           {/*  <Image

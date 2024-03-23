@@ -1,12 +1,10 @@
+import { Project, Tecnology } from '@/types';
+
 import {
   FiLinkedin,
   FiGithub
 } from 'react-icons/fi'
 
-type Tecnology = {
-  icon: string,
-  name: string
-}
 
 export const navOptions = [
   {
@@ -98,5 +96,97 @@ export const tecnologies: Array<Tecnology> = [
   {
     icon: '/tecnologies-icons/git.svg',
     name: 'Git'
+  },
+]
+
+export const projects: Array<Project> = [
+  {
+    name: 'Daviagens',
+    thumb: '/projects-thumbs/daviagens.png',
+    gitLink: 'https://github.com/RabbitDeWitt/Atividade-Modulo-2 ',
+    demoLink: 'https://rabbitdewitt.github.io/daviagens/',
+    tecnologies: [
+      tecnologies[0],
+      tecnologies[1],
+      tecnologies[2],
+      tecnologies[4],
+    ]
+  },
+  {
+    name: 'Carhub',
+    thumb: '/projects-thumbs/carhub.png',
+    gitLink: 'https://github.com/RabbitDeWitt/carhub',
+    demoLink: 'https://carhub-nine-sigma.vercel.app/',
+    tecnologies: [
+      tecnologies[9],
+      tecnologies[3],
+      tecnologies[5],
+    ]
+  },
+  {
+    name: 'Evogym',
+    thumb: '/projects-thumbs/evogym.png',
+    gitLink: 'https://github.com/RabbitDeWitt/evogym',
+    demoLink: 'https://rabbitdewitt.github.io/evogym/',
+    tecnologies: [
+      tecnologies[9],
+      tecnologies[3],
+      tecnologies[5]
+    ]
+  },
+  {
+    name: 'Captur',
+    thumb: '/projects-thumbs/captur.png',
+    gitLink: 'https://github.com/RabbitDeWitt/captur-project',
+    demoLink: 'https://captur-project-seven.vercel.app/',
+    tecnologies: [
+      tecnologies[9],
+      tecnologies[3],
+      tecnologies[5]
+    ]
+  },
+  {
+    name: 'Hoobank',
+    thumb: '/projects-thumbs/hoobank.png',
+    gitLink: 'https://github.com/RabbitDeWitt/hoobank',
+    demoLink: 'https://rabbitdewitt.github.io/hoobank/',
+    tecnologies: [
+      tecnologies[8],
+      tecnologies[2],
+      tecnologies[5]
+    ]
+  },
+  {
+    name: 'Data Finance',
+    thumb: '/projects-thumbs/data-finance.png',
+    gitLink: 'https://github.com/RabbitDeWitt/data-finance',
+    demoLink: 'https://rabbitdewitt.github.io/data-finance/',
+    tecnologies: [
+      tecnologies[8],
+      tecnologies[2],
+      tecnologies[5]
+    ]
+  },
+  {
+    name: 'Defi',
+    thumb: '/projects-thumbs/defi.png',
+    gitLink: 'https://github.com/RabbitDeWitt/defi-project',
+    demoLink: 'https://rabbitdewitt.github.io/defi-project/',
+    tecnologies: [
+      tecnologies[8],
+      tecnologies[3],
+      tecnologies[5]
+    ]
+  },
+  {
+    name: 'Beaches',
+    thumb: '/projects-thumbs/beaches.png',
+    gitLink: 'https://github.com/RabbitDeWitt/beaches',
+    demoLink: 'https://rabbitdewitt.github.io/beaches/',
+    tecnologies: [
+      tecnologies[8],
+      tecnologies[3],
+      tecnologies[5]
+    ]
   },
 ]
