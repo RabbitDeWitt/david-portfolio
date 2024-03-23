@@ -28,8 +28,8 @@ const Hero = () => {
           <div className="hidden lg:flex flex-1 justify-center items-center h-full">
             <Image
               src='/foto.png'
-              width={500}
-              height={500}
+              width={450}
+              height={450}
               alt="Foto de David Coelho"
               className="object-cover rounded-full"
 
