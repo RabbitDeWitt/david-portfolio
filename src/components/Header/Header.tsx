@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import Navbar from "../Navbar/Navbar"
 import Social from "../Social/Social"
 import NavMobile from "../NavMobile/NavMobile"
-import Link from "next/link"
+import { Link } from "react-scroll"
 
 const Header = () => {
   const [bg, setBg] = useState<boolean>(false)
@@ -14,12 +14,17 @@ const Header = () => {
     })
   })
   return (
-    <header className={`${bg ? 'bg-tertiary h-20 drop-shadow-md' : 'h-24'} flex items-center fixed w-full text-white top-0 z-10 transition-all duration-300`}>
+    <header className={`${bg ? 'bg-tertiary h-20 border-b-[1px] border-b-sky-500/15' : 'h-24'} flex items-center fixed w-full text-white top-0 z-10 transition-all duration-300`}>
       <div className="container mx-auto h-full flex items-center justify-between">
-        <Link href=''>
-          <h1 className="text-2xl font-semibold">
-            David Coelho
-          </h1>
+        <Link
+          to='home'
+          activeClass='text-sky-500'
+          smooth={true}
+          duration={500}
+          offset={-70}
+          className="text-2xl font-semibold cursor-pointer"
+        >
+          David Coelho
         </Link>
 
         <div className="hidden lg:block">

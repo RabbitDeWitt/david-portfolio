@@ -1,4 +1,5 @@
 import React, { MouseEventHandler } from "react";
+import { IconType } from "react-icons";
 
 export type Tecnology = {
   icon: string,
@@ -13,11 +14,21 @@ export type Project = {
   tecnologies: Array<Tecnology>
 }
 
+export type ContactInfo = {
+  icon: IconType,
+  value: string,
+}
+
 export interface ButtonProps {
-  children: React.ReactNode
+  children: React.ReactNode,
+  className?: string,
   onClick?: MouseEventHandler<HTMLButtonElement>
 }
 
 export interface ProjectCardProps {
   project: Project
+}
+
+export interface ContactItemProps {
+  item: ContactInfo
 }

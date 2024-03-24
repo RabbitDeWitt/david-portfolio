@@ -1,14 +1,13 @@
-import { About, Footer, Header, Hero, Portfolio, Skills } from "@/components";
+import { About, Contact, Hero, Portfolio, Skills } from "@/components";
 
 export default function Home() {
   return (
-    <main className="h-[2000px]">
-      <Header />
+    <main>
       <Hero />
       <About />
       <Skills />
       <Portfolio />
-      <Footer />
+      <Contact />
     </main>
   );
 }

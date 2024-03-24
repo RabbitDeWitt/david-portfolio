@@ -1,8 +1,10 @@
-import { Project, Tecnology } from '@/types';
+import { ContactInfo, Project, Tecnology } from '@/types';
 
 import {
   FiLinkedin,
-  FiGithub
+  FiGithub,
+  FiMail,
+  FiMapPin
 } from 'react-icons/fi'
 
 
@@ -189,4 +191,15 @@ export const projects: Array<Project> = [
       tecnologies[5]
     ]
   },
+]
+
+export const contactInfos: Array<ContactInfo> = [
+  {
+    icon: FiMail,
+    value: 'davidsocoelho@outlook.com',
+  },
+  {
+    icon: FiMapPin,
+    value: 'Santo André - SP',
+  }
 ]

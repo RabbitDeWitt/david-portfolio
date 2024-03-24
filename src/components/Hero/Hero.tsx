@@ -1,5 +1,7 @@
+'use client'
+
 import Image from "next/image"
-import Button from "../Button/Button"
+import { Link } from "react-scroll"
 
 const Hero = () => {
   return (
@@ -20,9 +22,15 @@ const Hero = () => {
               Sou apaixonado em ouvir música, tocar guitarra, assistir filmes e séries, jogar video-game e é claro programar.
             </p>
 
-            <Button>
+            <Link
+              to="contato"
+              smooth={true}
+              duration={500}
+              offset={-70}
+              className="py-4 px-7 font-medium text-white flex items-center justify-center rounded-lg bg-sky-700 hover:bg-sky-600 transition-all duration-300 cursor-pointer"
+            >
               Me pague um café ☕
-            </Button>
+            </Link>
           </div>
 
           <div className="hidden lg:flex flex-1 justify-center items-center h-full">

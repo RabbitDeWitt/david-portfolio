@@ -2,6 +2,7 @@ import Hero from "./Hero/Hero";
 import About from "./About/About";
 import Skills from "./Skills/Skills";
 import Portfolio from "./Portfolio/Portfolio";
+import Contact from "./Contact/Contact";
 
 import Header from "./Header/Header";
 import Navbar from "./Navbar/Navbar";
@@ -24,5 +25,6 @@ export {
   NavMobile,
   About,
   Skills,
-  Portfolio
+  Portfolio,
+  Contact
 }

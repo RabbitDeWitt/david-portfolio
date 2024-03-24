@@ -3,7 +3,10 @@ import Image from "next/image"
 
 const Skills = () => {
   return (
-    <section className="bg-tertiary py-12">
+    <section
+      id="tecnologias"
+      className="bg-tertiary py-12"
+    >
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center gap-y-5">
           {tecnologies.map(({ icon, name }, i) => (
