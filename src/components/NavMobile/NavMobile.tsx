@@ -77,6 +77,7 @@ const NavMobile = () => {
               smooth={true}
               duration={500}
               offset={-70}
+              onClick={() => setIsOpen(false)}
               className="text-xl cursor-pointer"
             >
               {name}
