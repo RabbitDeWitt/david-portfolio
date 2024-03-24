@@ -7,6 +7,12 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        lg: '3rem'
+      },
+    },
     extend: {
       content: {
         sobre: 'url("/sobre.svg")',
