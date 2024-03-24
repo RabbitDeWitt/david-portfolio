@@ -3,16 +3,11 @@ import Button from "../Button/Button"
 
 const About = () => {
   return (
-    <section className="py-12 lg:pt-20 bg-secondary">
+    <section
+      id="sobre"
+      className="py-12 lg:pt-20 bg-secondary">
       <div className="container mx-auto">
         <div className="flex flex-col gap-24">
-          {/*  <Image
-            src='/sobre.svg'
-            width={500}
-            height={70}
-            alt="Sobre"
-            className="object-contain md:mx-auto l"
-          /> */}
           <div className="flex flex-col items-center text-center text-white">
             <div className="flex flex-col">
               <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 text-center">

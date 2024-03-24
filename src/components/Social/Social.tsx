@@ -1,7 +1,5 @@
-
 import Link from "next/link"
 import { socialMedias } from "@/constants"
-import { IconType } from "react-icons"
 
 const Social = () => {
   return (
@@ -15,7 +13,8 @@ const Social = () => {
           >
             <Link
               href={href}
-              className="h-[30px] w-[30px] flex items-center justify-center rounded-full hover:bg-white/20 transition-all duration-300"
+              target="_blank"
+              className="h-[40px] w-[40px] flex items-center justify-center rounded-full hover:bg-white/20 transition-all duration-300"
             >
               <Icon size={20} />
             </Link>

@@ -32,11 +32,11 @@ export const navOptions = [
 export const socialMedias = [
   {
     icon: FiGithub,
-    href: '',
+    href: 'https://github.com/RabbitDeWitt',
   },
   {
     icon: FiLinkedin,
-    href: '',
+    href: 'https://www.linkedin.com/in/david-santos-de-oliveira-coelho/',
   },
 ];
 

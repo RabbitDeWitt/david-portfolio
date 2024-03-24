@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import Navbar from "../Navbar/Navbar"
 import Social from "../Social/Social"
 import NavMobile from "../NavMobile/NavMobile"
+import Link from "next/link"
 
 const Header = () => {
   const [bg, setBg] = useState<boolean>(false)
@@ -13,12 +14,13 @@ const Header = () => {
     })
   })
   return (
-    <header className={`${bg ? 'bg-tertiary h-20' : 'h-24'} flex items-center fixed w-full text-white top-0 z-10 transition-all duration-300`}>
+    <header className={`${bg ? 'bg-tertiary h-20 drop-shadow-md' : 'h-24'} flex items-center fixed w-full text-white top-0 z-10 transition-all duration-300`}>
       <div className="container mx-auto h-full flex items-center justify-between">
-        <h1 className="text-2xl font-semibold">
-          David Coelho
-        </h1>
-
+        <Link href=''>
+          <h1 className="text-2xl font-semibold">
+            David Coelho
+          </h1>
+        </Link>
 
         <div className="hidden lg:block">
           <Navbar />

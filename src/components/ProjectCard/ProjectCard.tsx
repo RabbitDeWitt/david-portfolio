@@ -4,6 +4,7 @@ import Link from "next/link"
 
 const ProjectCard = ({ project }: ProjectCardProps) => {
   const { name, thumb, demoLink, gitLink, tecnologies } = project
+
   return (
     <div className="relative group">
       <Image
@@ -13,7 +14,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         alt={`Thumb do projeto ${name}`}
         className="object-contain rounded-lg"
       />
-      <div className="hidden absolute top-0 left-0 bg-black/75 w-full h-full group-hover:flex flex-col justify-center items-center transition-all duration-300">
+      <div className="hidden absolute top-0 left-0 bg-black/75 w-full h-full group-hover:flex flex-col justify-center items-center transition-all duration-300 rounded-lg">
         <h1 className="text-white text-2xl font-semibold mb-2">{name}</h1>
         <div className="flex gap-2">
           {tecnologies.map(({ icon, name }) => (
