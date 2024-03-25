@@ -58,7 +58,7 @@ const Form = () => {
       <div className="flex flex-col md:flex-row gap-8">
         <div className="flex-1">
           <input
-            type="text"
+            type="email"
             placeholder="Seu Email"
             maxLength={50}
             {...register('email', {
