@@ -17,7 +17,7 @@ const Contact = () => {
 
         <div className="flex flex-col-reverse lg:gap-x-8 lg:flex-row">
 
-          <div className="flex flex-1 flex-row lg:flex-col items-start gap-8 mt-20 lg:mt-0  mb-12 lg:mb-0 lg:pt-2">
+          <div className="flex flex-1 flex-col items-center md:items-start md:flex-row lg:flex-col gap-8 mt-20 lg:mt-0  mb-12 lg:mb-0 lg:pt-2">
             {contactInfos.map((info, i) => (
               <ContactItem
                 key={i}
@@ -27,7 +27,7 @@ const Contact = () => {
           </div>
 
           <form className="space-y-8 w-full max-w-[780px]">
-            <div className="flex gap-8">
+            <div className="flex flex-col md:flex-row gap-8">
               <input
                 id=""
                 type="text"

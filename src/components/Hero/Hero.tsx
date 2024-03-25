@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="flex-1 flex flex-col items-center lg:items-start w-full text-white">
             <p className="text-lg text-sky-500 mb-[22px] font-semibold">Oi, Eu sou o <span className="line-through decoration-2 decoration-black">Goku</span> David Coelho</p>
 
-            <h1 className="leading-[44px] text-4xl md:text-5xl md:leading-tight md:tracking-[-2px] lg:text-7xl lg:leading-[1.2] font-bold">
+            <h1 className="leading-[44px] text-center lg:text-start text-4xl md:text-5xl md:leading-tight md:tracking-[-2px] lg:text-7xl lg:leading-[1.2] font-bold">
               Desenvolvedor FullStack
             </h1>
 
