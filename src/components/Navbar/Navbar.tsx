@@ -4,9 +4,8 @@ import { navOptions } from "@/constants"
 import { Link } from "react-scroll"
 
 const Navbar = () => {
-
   return (
-    <nav className=''>
+    <nav>
       <ul className="flex space-x-8 text-[15px]">
         {navOptions.map(({ name, href }) => (
           <li

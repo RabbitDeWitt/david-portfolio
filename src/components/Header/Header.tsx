@@ -13,6 +13,7 @@ const Header = () => {
       return window.scrollY > 50 ? setBg(true) : setBg(false)
     })
   })
+
   return (
     <header className={`${bg ? 'bg-tertiary h-20 border-b-[1px] border-b-sky-500/15' : 'h-24'} flex items-center fixed w-full text-white top-0 z-10 transition-all duration-300`}>
       <div className="container mx-auto h-full flex items-center justify-between">
