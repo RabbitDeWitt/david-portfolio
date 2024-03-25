@@ -60,6 +60,7 @@ const Form = () => {
           <input
             type="text"
             placeholder="Seu Email"
+            maxLength={50}
             {...register('email', {
               required: true,
               validate: (value) => validator.isEmail(value),
@@ -76,8 +77,10 @@ const Form = () => {
           <input
             type="text"
             placeholder="Seu Nome"
+            maxLength={50}
             {...register('name', {
               required: true,
+              minLength: 3,
               validate: (value) => value.trim().length !== 0
             })}
             className="bg-secondary text-paragraph h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-sm focus:outline focus:outline-1 focus:outline-sky-500"
@@ -94,8 +97,10 @@ const Form = () => {
         <input
           type="text"
           placeholder="Assunto"
+          maxLength={50}
           {...register('subject', {
             required: true,
+            minLength: 2,
             validate: (value) => value.trim().length !== 0
           })}
           className="bg-secondary text-paragraph h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-sm focus:outline focus:outline-1 focus:outline-sky-500"
@@ -110,8 +115,10 @@ const Form = () => {
       <div>
         <textarea
           placeholder="Sua Mensagem"
+          maxLength={150}
           {...register('message', {
             required: true,
+            minLength: 2,
             validate: (value) => value.trim().length !== 0
           })}
           className="bg-secondary resize-none w-full outline-none p-6 rounded-sm h-[200px] focus:outline focus:outline-1 focus:outline-sky-500"></textarea>
