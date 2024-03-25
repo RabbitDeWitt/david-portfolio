@@ -11,7 +11,7 @@ import ProjectCard from "./ProjectCard/ProjectCard";
 import Button from "./Button/Button";
 import Social from "./Social/Social";
 import NavMobile from "./NavMobile/NavMobile";
-
+import Form from "./Form/Form";
 
 
 export {
@@ -26,5 +26,6 @@ export {
   About,
   Skills,
   Portfolio,
-  Contact
+  Contact,
+  Form
 }
