@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
 
           <p>
-            &copy; 2024 David Coelho. Todos direitos reservados.
+            &copy; 2024 David Coelho. Todos os direitos reservados.
           </p>
         </div>
       </div>

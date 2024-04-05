@@ -12,7 +12,7 @@ const Contact = () => {
         <div className="flex flex-col items-center text-center">
           <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3">Entre em contato</h2>
           <p className="text-base text-paragraph mb-16 lg:mb-24 max-w-[520px]">
-            Se você se interessou, sinta-se a para entrar em contato comigo.
+            Se você se interessou, sinta-se a vontade para entrar em contato comigo.
           </p>
         </div>
 
